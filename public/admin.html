@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style-admin.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Admin Dashboard</h1>
+        <button id="logout-button">Logout</button>
+    </header>
+
+    <div class="container">
+        <section id="user-list">
+            <h2>Registered Users</h2>
+            <ul id="users-container">
+                <!-- User list items will be dynamically inserted here -->
+            </ul>
+        </section>
+
+        <section id="booking-management">
+            <h2>Manage Bookings</h2>
+            <div id="bookings-container">
+                <!-- Booking management items will be dynamically inserted here -->
+            </div>
+        </section>
+    </div>
+
+    <script src="script-admin.js"></script>
+</body>
+</html>

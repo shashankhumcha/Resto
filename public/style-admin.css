@@ -1,0 +1,104 @@
+/* style.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Header */
+.header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header h1 {
+    margin: 0;
+}
+
+#logout-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#logout-button:hover {
+    background-color: #c82333;
+}
+
+/* Container */
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    border-bottom: 2px solid #343a40;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #343a40;
+    font-size: 24px;
+}
+
+/* User list */
+#user-list {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.user-item {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.user-item:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Booking management */
+#booking-management {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.booking-item {
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.booking-item:last-child {
+    border-bottom: none;
+}
+
+.booking-item p {
+    margin: 5px 0;
+}
